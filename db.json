@@ -1,0 +1,143 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "testuser",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "username": "john",
+      "password": "pass"
+    },
+    {
+      "id": 3,
+      "username": "alice",
+      "password": "alice123"
+    },
+    {
+      "id": 4,
+      "username": "bob",
+      "password": "bob456"
+    },
+    {
+      "id": "b4d2",
+      "username": "Roy",
+      "password": "admin"
+    }
+  ],
+  "journals": [
+    {
+      "id": 1,
+      "author": "testuser",
+      "entry": "Today I felt much better."
+    },
+    {
+      "id": 2,
+      "author": "john",
+      "entry": "Struggled a bit, but stayed positive."
+    },
+    {
+      "id": 3,
+      "author": "alice",
+      "entry": "Feeling hopeful today."
+    },
+    {
+      "id": "324f",
+      "userId": "b4d2",
+      "title": "Its been a tough day",
+      "content": "vert",
+      "mood": "Sad"
+    }
+  ],
+  "communityPosts": [
+    {
+      "id": 1,
+      "author": "Anonymous",
+      "message": "Mental health is important, let's support each other.",
+      "comments": [
+        {
+          "author": "testuser",
+          "text": "Well said!"
+        },
+        {
+          "author": "john",
+          "text": "Totally agree."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "author": "testuser",
+      "message": "Any good resources for anxiety?",
+      "comments": [
+        {
+          "author": "alice",
+          "text": "Check the Resources section, lots of helpful links there."
+        }
+      ]
+    },
+    {
+      "id": "7109",
+      "author": "Anonymous",
+      "message": "joking",
+      "comments": []
+    }
+  ],
+  "therapists": [
+    {
+      "id": 1,
+      "name": "Dr. Sarah Lee",
+      "specialization": "Anxiety & Stress",
+      "availability": "Mon-Fri 10am - 5pm"
+    },
+    {
+      "id": 2,
+      "name": "Mr. John Smith",
+      "specialization": "Depression & Trauma",
+      "availability": "Tue-Thu 1pm - 6pm"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Emily Davis",
+      "specialization": "Relationships & Self-esteem",
+      "availability": "Mon-Wed 9am - 3pm"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "userId": 1,
+      "therapistId": 1,
+      "therapistName": "Dr. Sarah Lee",
+      "time": "2:00 PM"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "therapistId": 2,
+      "therapistName": "Mr. John Smith",
+      "time": "1:30 PM"
+    }
+  ],
+  "resources": [
+    {
+      "id": 1,
+      "title": "Mental Health Foundation",
+      "link": "https://www.mentalhealth.org.uk",
+      "description": "Trusted mental health information, guides, and support resources."
+    },
+    {
+      "id": 2,
+      "title": "NHS Every Mind Matters",
+      "link": "https://www.nhs.uk/every-mind-matters",
+      "description": "Expert advice and practical tips to help you look after your mental health."
+    },
+    {
+      "id": 3,
+      "title": "Mind - Mental Health Charity",
+      "link": "https://www.mind.org.uk",
+      "description": "Charity offering information, support, and helplines for mental health issues."
+    }
+  ]
+}

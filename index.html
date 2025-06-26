@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mind Vitals</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<header>
+    <h1>Mind Vitals</h1>
+    <div>
+        <button id="homeBtn">Home</button>
+        <button id="journalBtn">Journal</button>
+        <button id="communityBtn">Community</button>
+        <button id="therapistBtn">Therapists</button>
+        <button id="resourcesBtn">Resources</button>
+        <button id="bookingsBtn">My Appointments</button>
+        <button id="themeToggle">Toggle Theme</button>
+    </div>
+    <div>
+        <button id="loginBtn">Login</button>
+        <button id="signupBtn">Sign Up</button>
+        <button id="logoutBtn" style="display:none">Logout</button>
+    </div>
+</header>
+
+<main id="content">
+    <!-- Dynamic content loads here -->
+</main>
+
+<!-- Login Modal -->
+<div class="modal" id="loginModal">
+    <div class="modal-content">
+        <h3>Login</h3>
+        <input type="text" id="loginUsername" placeholder="Username"><br><br>
+        <input type="password" id="loginPassword" placeholder="Password"><br><br>
+        <button id="loginSubmit" class="primary-btn">Login</button>
+        <button id="closeLogin" class="secondary-btn">Cancel</button>
+    </div>
+</div>
+
+<!-- Sign Up Modal -->
+<div class="modal" id="signupModal">
+    <div class="modal-content">
+        <h3>Sign Up</h3>
+        <input type="text" id="signupUsername" placeholder="Username"><br><br>
+        <input type="password" id="signupPassword" placeholder="Password"><br><br>
+        <button id="signupSubmit" class="primary-btn">Sign Up</button>
+        <button id="closeSignup" class="secondary-btn">Cancel</button>
+    </div>
+</div>
+
+<script src="./index.js"></script>
+
+</body>
+</html>
