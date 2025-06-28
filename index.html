@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mind Vitals - Your Mental Health Companion</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Mind Vitals</h1>
+        <nav>
+            <button id="homeBtn">Home</button>
+            <button id="journalBtn">Journal</button>
+            <button id="therapistBtn">Therapists</button>
+            <button id="bookingsBtn">Bookings</button>
+            <button id="communityBtn">Community</button>
+            <button id="resourcesBtn">Resources</button>
+            <button id="themeToggle">🌙</button>
+            <button id="loginBtn" class="auth-btn">Login</button>
+            <button id="signupBtn" class="auth-btn">Signup</button>
+            <button id="logoutBtn" class="auth-btn">Logout</button>
+        </nav>
+    </header>
+
+    <main id="content">
+        <!-- Dynamic content goes here -->
+    </main>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span id="closeLogin" class="close">&times;</span>
+            <h2>Login</h2>
+            <input type="text" id="loginUsername" placeholder="Username">
+            <input type="password" id="loginPassword" placeholder="Password">
+            <button id="loginSubmit" class="primary-btn">Login</button>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <span id="closeSignup" class="close">&times;</span>
+            <h2>Signup</h2>
+            <input type="text" id="signupUsername" placeholder="Username">
+            <input type="password" id="signupPassword" placeholder="Password">
+            <button id="signupSubmit" class="primary-btn">Signup</button>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

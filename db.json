@@ -1,0 +1,137 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "mwanzi",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "username": "nyambura",
+      "password": "1234"
+    },
+    {
+      "id": 3,
+      "username": "kiptoo",
+      "password": "1234"
+    },
+    {
+      "id": 4,
+      "username": "atieno",
+      "password": "1234"
+    },
+    {
+      "id": 5,
+      "username": "odhiambo",
+      "password": "1234"
+    }
+  ],
+  "therapists": [
+    {
+      "id": 1,
+      "name": "Dr. Wanjiku Mwangi",
+      "speciality": "Anxiety & Depression",
+      "hours": "Mon-Fri 9am-5pm",
+      "image": "images/therapist1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Kiprono Koech",
+      "speciality": "Family & Marriage Counseling",
+      "hours": "Tue-Sat 10am-4pm",
+      "image": "images/therapist2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Akinyi Odhiambo",
+      "speciality": "Adolescent Mental Health",
+      "hours": "Mon-Fri 8am-2pm",
+      "image": "images/therapist3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Dr. Kevin Mutua",
+      "speciality": "Trauma Therapy",
+      "hours": "Wed-Sun 12pm-6pm",
+      "image": "images/therapist4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Dr. Njeri Gichuru",
+      "speciality": "Substance Abuse Counseling",
+      "hours": "Mon-Fri 10am-3pm",
+      "image": "images/therapist5.jpg"
+    }
+  ],
+  "journals": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "First Entry",
+      "content": "Feeling hopeful today.",
+      "mood": "Hopeful"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "title": "Difficult Day",
+      "content": "Work was stressful.",
+      "mood": "Stressed"
+    },
+    {
+      "id": "b4f1",
+      "userId": 1,
+      "title": "Its been a tough day",
+      "content": "I'Ve struggled a lot today",
+      "mood": "Sad"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "userId": 1,
+      "therapistId": 2,
+      "therapistName": "Dr. Kiprono Koech",
+      "date": "2025-07-05 11:00am"
+    },
+    {
+      "id": "39d2",
+      "userId": 1,
+      "therapistId": 2,
+      "therapistName": "Dr. Kiprono Koech",
+      "date": "2025-06-09 12:00pm"
+    }
+  ],
+  "communityPosts": [
+    {
+      "id": 1,
+      "author": "Anonymous",
+      "message": "It's okay to not be okay. Stay strong everyone."
+    },
+    {
+      "id": 2,
+      "author": "nyambura",
+      "message": "Anyone tried meditation? It really helps!"
+    }
+  ],
+  "resources": [
+    {
+      "id": 1,
+      "title": "Chiromo Hospital Group",
+      "description": "Leading mental health facility in Kenya.",
+      "link": "https://www.chiromo.co.ke"
+    },
+    {
+      "id": 2,
+      "title": "Befrienders Kenya",
+      "description": "Free emotional support for those in distress.",
+      "link": "http://www.befrienderskenya.org"
+    },
+    {
+      "id": 3,
+      "title": "Red Cross Psychological Support",
+      "description": "Psychological first aid and support.",
+      "link": "https://www.redcross.or.ke"
+    }
+  ]
+}
