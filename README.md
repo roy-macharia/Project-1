@@ -1,6 +1,8 @@
 # Mind Vitals
 Mind Vitals is a Kenyan-focused mental health web platform that provides a safe space for users to track their well-being, access therapists, journal privately, and engage with a supportive community.
 
+(video) [https://www.loom.com/share/8753675008e94325a49aef49ab099f9e]
+
 # About the Project
 Mind Vitals promotes mental wellness by offering:
 
@@ -37,3 +39,8 @@ HTML5
 CSS
 JavaScript 
 JSON Server for mock backend
+
+
+# Deployed page [https://roy-macharia.github.io/Project-1/]
+
+# Aurthor - Roy Macharia
